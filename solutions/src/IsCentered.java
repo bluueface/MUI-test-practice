@@ -1,10 +1,10 @@
-public class Main {
+public class IsCentered {
     public static void main(String[] args) {
 
-        System.out.println(IsCentered(new int[]{1}));
+        System.out.println(isCentered(new int[]{5, 6, 1, 8, 9}));
     }
 
-    public static int IsCentered(int[] array) {
+    public static int isCentered(int[] array) {
 
         int length = array.length;
 
@@ -14,7 +14,7 @@ public class Main {
 
         int middleElementIndex = length / 2;
         int middleElement = array[middleElementIndex];
-        
+
         for (int element : array) {
             if (middleElement > element) {
                 return 0;
