@@ -1,0 +1,15 @@
+Question 3:
+
+Define the weighted sum of an array to be 2 * the sum of the even valued elements + 3 * the sum of the odd valued elements.
+
+Write a method named computeWeightedSum that computes the weighted sum of its argument.
+
+If you are programming in Java or C#, the function signature is
+int computeWeightedSum(int[ ] a)
+
+If you are programming in C or C++, the function signature is
+int computeWeightedSum(int a[ ], int len) where len is the number of elements in the array a.
+
+You may assume that the input parameter is not null and that it contains at least one element.
+
+Your method must make only one pass through the array, i.e, there must be only one loop in your method!
