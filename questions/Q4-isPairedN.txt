@@ -1,0 +1,15 @@
+Question 4:
+
+An array is defined to be paired-N if it contains two distinct elements that sum to N for some specified value of N and the indexes of those elements also sum to N. Write a function named isPairedN that returns 1 if its array parameter is a paired-N array. The value of N is passed as the second parameter.
+
+If you are writing in Java or C#, the function signature is
+int isPairedN(int[ ] a, int n)
+
+If you are writing in C or C++, the function signature is
+int isPairedN(int a[ ], int n, int len) where len is the length of a
+
+There are two additional requirements.
+
+Once you know the array is paired-N, you should return 1. No wasted loop iterations please.
+
+Do not enter the loop unless you have to. You should test the length of the array and the value of n to determine whether the array could possibly be a paired-N array. If the tests indicate no, return 0 before entering the loop.
